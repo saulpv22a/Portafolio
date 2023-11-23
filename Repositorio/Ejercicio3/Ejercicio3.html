@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de traje</title>
+<body>
+    <h3>Bienvenido a Alquiler de trajes</h3>
+    <p>RELLENE EL FORMULARIO PARA ELEGIR SU TRAJE</p>
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required="">
+            <br> <label for="email">Correo electronico</label>
+            <input type="email" id="email" name="email" required="">
+        </fieldset>
+        <fieldset>
+            <label for="talla">Talla</label>
+            <select name="talla" id="talla">
+                <option value="1">XS</option>
+                <option value="2">S</option>
+                <option value="3">M</option>
+                <option value="4">L</option>
+                <option value="5">XL</option>
+            </select>
+            <br> ¿Que prefiere?
+                <label for="p">Pajarita</label>
+                <input type="radio" id="p" name="prefiere" value="1">
+                <label for="c">Corbata</label>
+                <input type="radio" id="p" name="prefiere" value="1">
+        </fieldset>
+        <fieldset>
+            <br> Prendas Adicionales
+            
+                <label for="cha">Chaleco</label>
+                <input type="checkbox" id="cha" name="cha" value="1">
+
+                <label for="pa">Pañuelo</label>
+                <input type="checkbox" id="pa" name="pa" value="1">
+
+                <label for="Ge">Gemelos</label>
+                <input type="checkbox" id="Ge" name="ge" value="1">
+        </fieldset>
+        <fieldset>
+            <br>El Alquiler
+            <label for="finicio">Desde:</label>
+            <input type="date" id="finicio" name="finicio">
+            <label for="ffin">Hasta:</label>
+            <input type="date" id="ffin" name="ffin">
+        </fieldset>
+        <button id="envio">Enviar Formulario</button>
+    </form>
+</body>
+</html>
